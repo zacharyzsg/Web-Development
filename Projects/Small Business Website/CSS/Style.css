@@ -1,0 +1,183 @@
+/* Global Style */
+body{
+    background-color: black;
+}
+
+div#container{
+    margin:auto;
+    width:1050px;
+    background-color: #FF7E1C;
+}
+
+header{
+    display:block;
+    width:100%;
+    background-color: #048500;
+    height:150px
+    border:2px dotted #048500;
+    margin:0;
+    padding:0;
+}
+
+header h1{
+    color:#FF7E1C;
+    text-shadow: 1px 1px 1px #FF7E1C;
+    text-align: center;
+    margin-top: 50px;
+    margin:0;
+    padding:0;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav{
+    float:left;
+    width:100%;
+    background-color: #048500;
+    margin:0;
+    padding:0;
+    clear:both;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    color:black;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    display:block;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+}
+
+nav ul li a:hover{
+    background-color: #036600;
+}
+
+nav .active{
+    background-color: #FF7E1C;
+}
+
+.keepOpen{
+    clear:both;
+}
+
+/* index.html style */
+#h2-main{
+    display:block;
+    float:left;
+    width:60%;
+    color:black;
+    margin-left:0px;
+    margin-bottom:0px;
+}
+
+#imgMain{
+    display:block;
+    width:350px;
+    margin:65px 10px;
+    border:5px #048500 outset;
+    float: left;
+}
+
+#p-main{
+    width: 640px;
+    float:left;
+}
+
+/* about.html */
+img#bob-img{
+    width:500px;
+    margin: 10px;
+    float:left;
+    border: 5px outset #048500;
+}
+
+h2#h2-about{
+    float:left;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+p#p-about{
+    float:left;
+    width:48%;
+    margin-top:10px;
+}
+
+/* produce.html */
+#gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+}
+figure{
+    border:5px #048500 outset;
+    background-color:#FF7E1C; 
+    width:250px;
+    float:left;
+    margin:15px;
+    flex: 0 0 29.5%;
+}
+
+figure img{
+    display:block;
+    width:200px;
+    height:150px;
+    padding:5px;
+    margin:auto;
+}
+
+figcaption{
+    text-align:center;
+    margin-bottom:10px;
+    font-family:sans-serif;
+}
+
+/* contact.html */
+h2#h2-contact{
+    margin: 15px;
+}
+
+form#form-contact{
+    float:left;
+    margin:0px;
+    padding:0px;
+    margin-left: 15px;
+    width: 40%;
+}
+
+form input{
+    margin:0px;
+    padding:0px;
+    margin-bottom: 8px
+}
+
+button{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 75px;
+    font-size: 12pt;
+}
+
+div#map{
+    float:right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.keepOpen{
+    clear:both;
+}
+/* How to make a comment in CSS */
